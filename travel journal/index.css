@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box; 
+    
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins",sans-serif;
+  font-size: 20px;
+}
+
+nav {
+    display: flex;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ background: red;
+ height: 100%;
+ width: 100%;
+
+}
+
+nav >img{
+    display: flex;
+  position: relative;
+  left: 39%;
+  height: 25px;
+  transform: translate(0,12px);
+}
+
+nav > h1 {
+    color:white;
+    font-size: 20px;
+    font-weight: 200;
+     position: relative;
+     left: 40%;
+}
+
+.img{
+    height: 15px;
+    
+}
+
+.travel {
+    display: flex;
+    align-items: center;
+ justify-content: center;
+  transform: translate(-75px,40px);
+    
+}
+
+.travel--link {
+    display: flex;
+    font-size: 18px;
+    color:#949494;
+    margin: 15px 20px;
+}
+
+.travel--location {
+
+   font-size: 17px;
+   letter-spacing: 0.40em;
+   color: #494949;
+
+}
+.date {
+    font-size: 16px;
+  text-align: center;
+  position: relative;
+  left: -20%;
+
+}
+.title {
+    text-align: center;
+    font-size: 28px;
+   position: relative;
+   left: -16%;
+
+}
+ .description {
+  text-align: justify;
+  font-size: 20px;
+
+ }
+
+.travel--img {
+    height: 300px;
+    width: 200px;
+    border-radius: 7px;
+   margin: 30px 35px;
+    float: left;
+}
+.first--travel{
+    display: inline-block;
+}
